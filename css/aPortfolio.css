@@ -92,10 +92,7 @@ ul li a:hover {
     margin: auto;
     height: 90vh;
     width: 90%;
-    background: -webkit-linear-gradient(left top, #45d9fd, #99f19e); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #45d9fd, #99f19e); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #45d9fd, #99f19e); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #45d9fd, #99f19e); /* Standard syntax */
+	background-image: -webkit-gradient(linear, 0% 100%, 70% 72%, from(aqua), to(#08E0BE), to(#09E9BE));
 }
 .gradient2 h1 {
     margin-top: -50px;
@@ -198,11 +195,7 @@ ul li a:hover {
 .gradient {
     height: 80vh;
     width: 90%;
-    background: -webkit-linear-gradient(left top, #45d9fd, #99f19e); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #45d9fd, #99f19e); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #45d9fd, #99f19e); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #45d9fd, #99f19e); /* Standard syntax */
-    margin: auto;
+    background-image: -webkit-gradient(linear, 0% 100%, 70% 72%, from(aqua), to(#08E0BE), to(#09E9BE));
 }
 .gradient h1 {
     font-size: 4em;
@@ -459,9 +452,16 @@ ul li a:hover {
     .skills {
         height: 150vh;
     }
+    .about {
+        height: 100vh;
+    }
+
+    .contactContainer {
+        height: 90vh;
+    }
 
     .gradient {
-        height: 90vh;
+        height: 86vh;
     }
     .gradient h1 {
         font-size: 2.4em;
@@ -484,6 +484,7 @@ ul li a:hover {
     }
     .gradient2 {
         flex-direction: column;
+        height: 90vh;
     }
     .gradient2 h1 {
         font-size: 2.4em;
