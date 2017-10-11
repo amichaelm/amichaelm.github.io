@@ -90,7 +90,7 @@ ul li a:hover {
 .gradient2 {
     display: flex;
     margin: auto;
-    height: 80vh;
+    height: 84vh;
     width: 90%;
 	background-image: -webkit-gradient(linear, 0% 100%, 70% 72%, from(aqua), to(#08E0BE), to(#09E9BE));
 }
@@ -120,12 +120,12 @@ ul li a:hover {
 
 .gradient2 p {
     font-family: 'Playfair Display';
-    font-size: 1.4em;
-    max-width: 680px;
+    font-size: 1.2em;
+    max-width: 780px;
     text-align: left;
     margin-top: 200px;
     margin-right: 200px;
-    line-height: 1.8em;
+    line-height: 1.6em;
     color: #222;
 }
 
@@ -257,7 +257,9 @@ ul li a:hover {
     .gradient2 p {
         margin-left: -100px;
         margin-right: 80px;
-        line-height: 1.8em;
+        line-height: 1.6em;
+        font-size: 1.4em;
+        max-width: 880px;
     }
     .gradient2 h1 {
         margin-left: 130px;
@@ -268,11 +270,11 @@ ul li a:hover {
     }
     .gradient2 .motto {
         margin-left: -200px;
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
     .gradient2 p {
         margin-top: 340px;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
     .github-logo {
         color: #FFF;
@@ -319,8 +321,8 @@ ul li a:hover {
     .gradient2 p {
         margin-top: 280px;
         margin-left: -200px;
-        font-size: 1.2em;
-        line-height: 1.8em;
+        font-size: 1.1em;
+        line-height: 1.6em;
     }
     .github-logo {
         color: #FFF;
