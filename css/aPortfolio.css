@@ -493,16 +493,17 @@ ul li a:hover {
     }
 
     .gradient2 .motto {
-        max-width: 260px;
+        max-width: 280px;
         margin-left: 40px;
-        font-size: 1.1em;
+        font-size: 1.2em;
         margin-top: 20px;
+        padding-right: 4px;
     }
     .gradient2 p {
         margin-top: auto;
         margin-left: 40px;
-        font-size: 1em;
-        line-height: 1.6em;
+        font-size: .9em;
+        line-height: 1.4em;
         max-width: 300px;
         padding-top: 20px;
         padding-bottom: 20px;
