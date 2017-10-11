@@ -90,7 +90,7 @@ ul li a:hover {
 .gradient2 {
     display: flex;
     margin: auto;
-    height: 94vh;
+    height: 80vh;
     width: 90%;
 	background-image: -webkit-gradient(linear, 0% 100%, 70% 72%, from(aqua), to(#08E0BE), to(#09E9BE));
 }
@@ -505,19 +505,19 @@ ul li a:hover {
     }
 
     .contactContainer {
-        height: 96vh;
+        height: 90vh;
     }
 
     .gradient {
-        height: 94vh;
+        height: 86vh;
     }
     .gradient h1 {
         font-size: 2.4em;
-        margin-top: -30px;
-        margin-left: 20px;
+        margin-top: -33px;
+        margin-left: 10px;
     }
     .gradient p {
-        margin-top: 60px;
+        margin-top: 20px;
         margin-left: 30px;
         font-size: .9em;
         max-width: 282px;
