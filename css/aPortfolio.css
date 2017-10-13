@@ -96,7 +96,8 @@ ul li a:hover {
 }
 .expertiseContainer h1 {
     margin: auto;
-    color: #333;
+    color: #222;
+    font-size: 3.8em;
 }
 .row-container {
     margin: auto;
@@ -117,7 +118,7 @@ ul li a:hover {
 .expertise-block h2 {
     font-family: 'Francois One';
     padding: 0px;
-
+    font-size: 2.4em;
 }
 .icons {
     color: turquoise;
@@ -408,6 +409,12 @@ ul li a:hover {
     .header h1 {
         margin-left: 40px;
     }
+    .expertiseContainer h1 {
+        font-size: 2.9em;
+    }
+    .expertiseContainer h2 {
+        font-size: 2em;
+    }
     .skills {
       display: flex;
       flex-direction: column;
@@ -601,7 +608,7 @@ ul li a:hover {
         height: 200vh;
     }
     .expertiseContainer h1 {
-        font-size: 1.6em;
+        font-size: 2.4em;
         letter-spacing: .4px;
         margin-bottom: 80px;
     }
@@ -617,7 +624,7 @@ ul li a:hover {
     }
     .expertise-block h2 {
         padding: 20px;
-
+        font-size: 1.8em;
     }
     .icons {
         padding: 40px;
