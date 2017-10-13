@@ -183,7 +183,7 @@ ul li a:hover {
     text-align: left;
     margin-top: 200px;
     margin-right: 200px;
-    line-height: 1.6em;
+    line-height: 2em;
     color: #222;
 }
 
@@ -316,7 +316,7 @@ ul li a:hover {
     .gradient2 p {
         margin-left: -100px;
         margin-right: 80px;
-        line-height: 1.6em;
+        line-height: 1.8em;
         font-size: 1.4em;
         max-width: 880px;
     }
@@ -384,7 +384,7 @@ ul li a:hover {
         margin-top: 280px;
         margin-left: -200px;
         font-size: 1.1em;
-        line-height: 1.6em;
+        line-height: 1.8em;
     }
     .github-logo {
         color: #FFF;
@@ -505,7 +505,7 @@ ul li a:hover {
       margin-left: 100px;
       max-width: 480px;
       font-size: 1em;
-      line-height: 1.6em;
+      line-height: 1.8em;
   }
   .gradient2 h1 {
       font-size: 2.9em;
@@ -522,7 +522,7 @@ ul li a:hover {
       margin-left: 60px;
       margin-top: -10px;
       font-size: 1.4em;
-      max-width: 360px;
+      max-width: 380px;
   }
   .gradient2 p {
       margin: auto;
@@ -597,8 +597,13 @@ ul li a:hover {
         margin-left: -480px;
         font-size: 1.4em;
     }
-    .gradient p strong {
+    .gradient p {
+        margin-left: 40px;
+    }
+    .gradient .contactMotto {
         line-height: 1.4em;
+        margin-left: 0px;
+
     }
     .gradient2 {
         flex-direction: column;
@@ -633,9 +638,6 @@ ul li a:hover {
     .icons {
         padding: 40px;
     }
-    .expertise-block p {
-
-    }
 
     .gradient2 h1 {
         font-size: 2.4em;
@@ -654,7 +656,7 @@ ul li a:hover {
         margin-top: 0px;
         margin-left: 40px;
         font-size: .9em;
-        line-height: 1.4em;
+        line-height: 1.8em;
         max-width: 380px;
         padding-top: 30px;
         padding-bottom: 20px;
