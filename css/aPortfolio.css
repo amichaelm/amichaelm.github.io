@@ -258,13 +258,14 @@ ul li a:hover {
 .gradient h1 {
     font-size: 4em;
     margin-top: -40px;
-    margin-left: 200px;
+    margin-left: 160px;
     color: #222;
 }
 .gradient strong {
     font-size: 1.4em;
     font-weight:lighter;
     color: #FFF;
+    margin-left: -90px;
 }
 
 .gradient p {
@@ -361,8 +362,11 @@ ul li a:hover {
     }
     .gradient h1 {
         margin-top: -38px;
-        margin-left: 60px;
+        margin-left: 140px;
         font-size: 3.8em;
+    }
+    .gradient strong {
+        margin-left: -10px;
     }
     .gradient p {
         font-family: Playfair Display;
