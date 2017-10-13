@@ -87,6 +87,63 @@ ul li a:hover {
     display: flex;
 
 }
+
+.expertiseContainer {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.expertiseContainer h1 {
+    margin: auto;
+    color: #333;
+}
+.row-container {
+    margin: auto;
+    height: 60vh;
+    width: 90%;
+    background: #FFF;
+    display: flex;
+}
+.expertise-block {
+    width: 33.3%;
+    height: 500px;
+    background: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.expertise-block h2 {
+    font-family: 'Francois One';
+    padding: 0px;
+
+}
+.icons {
+    color: turquoise;
+    margin: auto;
+}
+.row-container h2 {
+    margin: auto;
+    color: #333;
+    margin-bottom: -40px;
+}
+.row-container i {
+    margin: auto;
+}
+.row-container p {
+    margin: auto;
+    font-family: ;
+    color: #777;
+    line-height: 1.4em;
+    text-align: center;
+    max-width: 360px;
+    font-family: 'Khula';
+    font-weight: lighter;
+    margin-top: -30px;
+
+}
+
 .gradient2 {
     display: flex;
     margin: auto;
@@ -539,6 +596,34 @@ ul li a:hover {
     .about {
         height: 100vh;
     }
+
+    .expertiseContainer {
+        height: 160vh;
+    }
+    .expertiseContainer h1 {
+        font-size: 1.6em;
+        letter-spacing: .4px;
+    }
+    .row-container {
+        display: flex;
+        flex-direction: column;
+        height: 120vh;
+    }
+    .row-container .expertise-block {
+        width: 100%;
+
+    }
+    .expertise-block h2 {
+        padding: 20px;
+
+    }
+    .icons {
+        padding: 20px;
+    }
+    .expertise-block p {
+
+    }
+
     .gradient2 h1 {
         font-size: 2.4em;
         margin-top: -30px;
@@ -566,6 +651,7 @@ ul li a:hover {
         position: absolute;
         margin-top: 60px;
         margin-left: 40%;
+
     }
 
 }
