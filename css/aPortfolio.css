@@ -152,7 +152,7 @@ ul li a:hover {
 	background-image: -webkit-gradient(linear, 0% 100%, 70% 72%, from(aqua), to(#08E0BE), to(#09E9BE));
 }
 .gradient2 h1 {
-    margin-top: -50px;
+    margin-top: -38px;
     margin-left: 160px;
     font-size: 3.8em;
     color: #222;
@@ -256,7 +256,7 @@ ul li a:hover {
 }
 .gradient h1 {
     font-size: 4em;
-    margin-top: -50px;
+    margin-top: -40px;
     margin-left: 200px;
     color: #222;
 }
@@ -359,7 +359,7 @@ ul li a:hover {
         margin-left: 60px;
     }
     .gradient h1 {
-        margin-top: -38px;
+        margin-top: -30px;
         margin-left: 60px;
         font-size: 3em;
     }
@@ -469,7 +469,7 @@ ul li a:hover {
   }
   .gradient h1 {
       font-size: 3em;
-      margin-top: -36px;
+      margin-top: -30px;
       margin-left: 40px;
       color: #222;
   }
@@ -498,7 +498,7 @@ ul li a:hover {
   }
   .gradient2 h1 {
       font-size: 2.9em;
-      margin-top: -36px;
+      margin-top: -30px;
       margin-left: 40px;
   }
   .gradient2 {
@@ -572,7 +572,7 @@ ul li a:hover {
     }
     .gradient h1 {
         font-size: 2.4em;
-        margin-top: -33px;
+        margin-top: -24px;
         margin-left: 10px;
     }
     .gradient p {
@@ -628,7 +628,7 @@ ul li a:hover {
 
     .gradient2 h1 {
         font-size: 2.4em;
-        margin-top: -30px;
+        margin-top: -24px;
         margin-left: 10px;
     }
 
