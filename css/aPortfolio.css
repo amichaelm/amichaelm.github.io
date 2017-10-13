@@ -598,16 +598,18 @@ ul li a:hover {
     }
 
     .expertiseContainer {
-        height: 160vh;
+        height: 200vh;
     }
     .expertiseContainer h1 {
         font-size: 1.6em;
         letter-spacing: .4px;
+        margin-bottom: 80px;
     }
     .row-container {
         display: flex;
         flex-direction: column;
-        height: 120vh;
+        height: 160vh;
+        justify-content: space-between;
     }
     .row-container .expertise-block {
         width: 100%;
@@ -618,7 +620,7 @@ ul li a:hover {
 
     }
     .icons {
-        padding: 20px;
+        padding: 40px;
     }
     .expertise-block p {
 
