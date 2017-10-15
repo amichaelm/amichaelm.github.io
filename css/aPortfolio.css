@@ -68,7 +68,6 @@ ul li a:hover {
     flex-direction: column;
     align-items: flex-end;
     margin: auto;
-    background-image: url('');
     background-size: cover;
     background-position: center;
 }
@@ -79,6 +78,27 @@ ul li a:hover {
     max-width: 900px;
     font-weight: lighter;
     color: #222;
+    animation: fade-in 5s;
+    -webkit-animation: fade-in 5s;
+	-moz-animation: fade-in 5s;
+	-ms-animation: fade-in 5s;
+	-o-animation: fade-in 5s;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; } to   { opacity: 1; }
+}
+@-moz-keyframes fade-in {
+    from { opacity: 0; } to   { opacity: 1; }
+}
+@-webkit-keyframes fade-in {
+    from { opacity: 0; } to   { opacity: 1; }
+}
+@-ms-keyframes fade-in {
+    from { opacity: 0; } to   { opacity: 1; }
+}
+@-o-keyframes fade-in {
+    from { opacity: 0; } to   { opacity: 1; }
 }
 
 .about {
