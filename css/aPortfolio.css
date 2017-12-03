@@ -315,12 +315,12 @@ ul li a:hover {
     color: #333;
 }
 
-.github-logo {
+.codepen-logo {
     color: #FFF;
     margin: 0px 0px 0px 920px;
     transition: color 0.3s ease-in-out;
 }
-.github-logo:hover {
+.codepen-logo:hover {
     color: #333;
 }
 
@@ -359,13 +359,13 @@ ul li a:hover {
         margin-top: 340px;
         font-size: 1.1em;
     }
-    .github-logo {
+    .codepen-logo {
         color: #FFF;
         margin: 80px 0px 0px 620px;
         position: absolute;
         transition: color 0.3s ease-in-out;
     }
-    .github-logo:hover {
+    .codepen-logo:hover {
         color: #333;
     }
 }
@@ -410,12 +410,12 @@ ul li a:hover {
         font-size: 1.1em;
         line-height: 1.8em;
     }
-    .github-logo {
+    .codepen-logo {
         color: #FFF;
         margin: 80px 0px 0px 380px;
         transition: color 0.3s ease-in-out;
     }
-    .github-logo:hover {
+    .codepen:hover {
         color: #333;
     }
 }
@@ -554,7 +554,7 @@ ul li a:hover {
       padding-right: 20px;
       padding-bottom: 10px;
   }
-  .github-logo {
+  .codepen-logo {
       color: #FFF;
       margin: 80px 0px 0px 220px;
       position: absolute;
@@ -686,7 +686,7 @@ ul li a:hover {
         padding-bottom: 20px;
 
     }
-    .github-logo {
+    .codepen-logo {
         position: absolute;
         margin-top: 60px;
         margin-left: 40%;
