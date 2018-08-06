@@ -1,0 +1,64 @@
+// COLOR VARIABLES
+$color-primary: rgb(172, 124, 248);
+$color-primary-dark: rgb(99, 70, 247);
+
+
+$color-secondary: rgb(131, 108, 240);
+
+$color-light-purple: #A593E0;
+$color-light-purple-2: #F8EAFF;
+
+// FONT VARIABLES
+$font-primary: 'Playfair Display', serif;
+$font-display: 'Hind', serif;
+
+// RESPONSIVE BREAKPOINTS
+$bp-huge: 93.75em; // 1500px
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 56.25em; // 900px
+$bp-small: 37.5em; // 600px
+$bp-xtra-small: 25em; //400px
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-huge) {
+        font-size: 60%;
+    }
+
+  @media only screen and (max-width: $bp-medium) {
+        font-size: 50%;
+    }
+
+  @media only screen and (max-width: $bp-small) {
+        font-size: 45%;
+  }
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 300;
+  line-height: 1.6;
+  padding: 3rem;
+  overflow-x: hidden;
+
+  @media screen and (max-width: $bp-large) {
+    padding: 0;
+  }
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 85vh min-content 40vh repeat(3, min-content);
+    grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end];
+}

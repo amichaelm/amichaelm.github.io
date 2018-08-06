@@ -1,0 +1,104 @@
+.contact {
+    display: flex;
+    height: 86vh;
+   
+    grid-row: 3 / 5;
+    grid-column: 1 / -1;
+    padding-top: 3rem;
+
+    @media screen and (max-width: $bp-largest) {
+        flex-direction: column;
+        height: 93vh;
+    }
+
+    &__pictures {
+        flex-basis: 66.6%;
+        background-image: linear-gradient(
+        to right bottom, 
+        rgba($color-primary, 0.6),
+        rgba($color-secondary, 0)),
+        url(../img/code_design.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        @media screen and (max-width: $bp-largest) {
+            flex-basis: 33.3%;
+        }
+    }
+
+    &__info {
+        flex-basis: 33.3%;
+        background-color: #FFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        @media screen and (max-width: $bp-largest) {
+            flex-basis: 66.6%;
+        }
+    }
+
+    &__h1 {
+        color: $color-primary;
+        padding: 0 3vw 0 3vw;
+        font-size: 8rem;
+        font-weight: 900;
+
+        @media screen and (max-width: $bp-small) {
+            font-size: 6rem;
+        }
+    }
+
+    &__h2 {
+        color: $color-primary;
+        margin-top: 4rem;
+        padding: 0 3vw 0 3vw;
+        font-weight: 600;
+        font-size: 2.8rem;
+        letter-spacing: 1px;
+
+        @media screen and (max-width: $bp-small) {
+            font-size: 3rem;
+        }
+    }
+
+    &__h3 {
+        margin-top: 10rem;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: 500;
+
+        @media screen and (max-width: $bp-small) {
+            font-size: 1.5rem;
+        }
+    }
+
+    &__h3,
+    a {
+        padding: 0 3vw 0 3vw;
+        font-family: $font-display;
+        color: #000;
+    }
+
+    a {
+        font-size: 3rem;
+        font-weight: bold;
+        letter-spacing: -2px;
+        color: $color-primary;
+        text-decoration: none;
+        transition: all .2s;
+
+        @media screen and (max-width: $bp-small) {
+            font-size: 3.5rem;
+        }
+
+
+        &:hover {
+            transform: skewX(-14deg);
+            color: #000;
+            text-decoration: underline;
+        }
+    }
+}

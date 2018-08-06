@@ -1,0 +1,21 @@
+.story {
+    grid-row: 3 / 4;
+    grid-column: full-start / full-end;
+
+    &__pictures,
+    &__content {
+        margin-top: 3rem;
+    }
+
+    &__pictures {
+        background-color: $color-secondary;
+        grid-row: 3 / 4;
+        grid-column: full-start / col-end 6;
+    }
+
+    &__content {
+        background-color: $color-light-purple;
+        grid-row: 3 / 4;
+        grid-column: col-start 5 / full-end;
+    }
+}

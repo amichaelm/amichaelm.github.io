@@ -1,0 +1,14 @@
+.footer {
+    grid-row: 5 / -1;
+    grid-column: full-start / full-end;
+    background-color: $color-secondary;
+    padding: 4rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__p {
+        color: #fff;
+    }
+}
