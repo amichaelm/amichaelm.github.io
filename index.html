@@ -1,54 +1,91 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" href="css/aPortfolio.css">
-    <meta name="viewport" content="width = device-width, initial-scale=1, maximum-scale=1">
-    <meta charset="utf-8" lang="en" />
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cantata+One|Droid+Serif|Francois+One|Khula|Playfair+Display|Slabo+27px" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Satisfy" rel="stylesheet">
-</head>
-<body>
-    <nav id="Home">
-        <ul>
-          <li><a href="../aPortfolio/index.html">Home</a></li>
-          <li><a href="#work">work</a></li>
-          <li><a href="#about">about</a></li>
-          <li><a href="#contact">contact</a></li>
-        </ul>
-      </nav>
-      <div class="header">
-          <h1>I'm a front-end web developer living in Chicago, Illinois.</h1>
-      </div>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700|Playfair+Display:400,400i,700,700i,900,900i"         rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
 
-      <div class="about" id="about">
-          <div class="gradient2">
-              <h1>About</h1>
-              <h2 class="motto">I build impactful websites and create logos that bring the brand style and attitude to life.</h2>
-              <p>I'm a 27 year old front-end web developer. I enjoy web development as it's always changing and growing so I'm always learning something new. I really enjoy making websites, logos, and helping people grow their online presence.</p>
-          </div>
-      </div>
+        <title>byalexm</title>
+    </head>
+    <body class="container">
+        <header class="header">
+            <h1 class="heading-1">Front-end Developer <span class="myBase">based in Chicago</span></h1>
+            <h2 class="heading-2">I love art, design, and coding beautiful things for people</h2>
+            <h3 class="skills">
+                <li class="item">web development</li>
+                <li class="item">web design</li>
+                <li class="item">web animations</li>
+                <li class="item">100% responsive</li>
+            </h3>
+        </header>
 
-      <div class="skills">
-        <a href="#" class="svg1"></a>
-        <a href="#" class="svg2"></a>
-        <a href="#" class="svg3"></a>
-        <a href="#" class="svg4"></a>
-        <a href="#" class="svg5"></a>
-      </div>
+        <section class="features">
+            <h2 class="features__h2">What I do
+                <div class="features__what">
+                    <span></span>
+                    <h3 class="features__h3 heading-3">take a look</h3>
+                </div>
+            </h2>
+            
+            <div class="features__inside--container">
+                <div class="features__icon--container">
+                    <h4 class="features__h4 heading-2">SEO Optimization</h4>
+                    <svg class="features__icon">
+                        <use xlink:href="img/sprite.svg#icon-search"></use>
+                    </svg>
+                    <p class="features__icon--text">
+                        Search engines are the highways of the internet, where people search and find what they're looking for. Research
+                        has shown that search engine traffic can make or a break an organization. I make it easy for people to find your website by staying up to date with SEO trends. 
+                    </p>
+                </div>
+                <div class="features__icon--container">
+                    <h4 class="features__h4 heading-2">Speed Optimization</h4>
+                    <svg class="features__icon">
+                        <use xlink:href="img/sprite.svg#icon-meter"></use>
+                    </svg>
+                    <p class="features__icon--text">
+                         I specialize in speeding up load times for your website, which in turn saves data for your users on all devices big or small, to bring them a lag free website.
+                    </p>
+                </div>
+                <div class="features__icon--container">
+                    <h4 class="features__h4 heading-2">Responsive Design</h4>
+                    <svg class="features__icon">
+                        <use xlink:href="img/sprite.svg#icon-mobile"></use>
+                    </svg>
+                    <p class="features__icon--text">
+                        Responsive design is standard today. According to statista, web pages served to mobile phones worldwide, from 2009 to 2018 has increased from .07% to 52.2%. I ensure that your website will work on the smallest of devices to the biggest.
+                    </p>
+                </div>
+                <div class="features__icon--container">
+                    <h4 class="features__h4 heading-2">Web Animations</h4>
+                    <svg class="features__icon">
+                        <use xlink:href="img/sprite.svg#icon-css3"></use>
+                    </svg>
+                    <p class="features__icon--text">
+                        I love making websites and apps come to life. Using Sass and modern CSS3 practices combined with speed optimization, your website will stand out from the rest.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-      <div class="contactContainer" id="contact">
-          <div class="gradient">
-              <h1>Contact</h1>
-             <p>
-                  <strong>Looking for someone to help bring your idea or design to life?</strong><br /><br />That's my specialty - HTML5, CSS3, JS, and CMS integration.
-             </p>
+        <div class="contact">
+            <div class="contact__pictures">
+            </div>
+            
+            <div class="contact__info">
+                <h1 class="contact__h1 heading-1">Lets create together.</h1>
+                <h2 class="contact__h2 heading-2">Turn your idea into reality.</h2>
+                <h3 class="contact__h3 heading-3">Email</h3>
+                <a href="mailto:zmarti90@gmail.com">zmarti90@gmail.com</a>
+            </div>
+        </div>    
 
-             <p>
-                  I'm free to meet and talk about ideas and working together. Send a message or just say hi below!
-              </p>
-              <a href="mailto:zmarti90@gmail.com">zmarti90@gmail.com</a>
-          </div>
-      </div>
-
-</body>
+        <footer class="footer">
+            <p class="footer__p heading-3">
+                &copy; byalexm 2018
+            </p>
+        </footer>
+    </body>
 </html>
