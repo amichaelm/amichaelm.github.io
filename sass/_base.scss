@@ -31,6 +31,7 @@ $bp-xtra-small: 25em; //400px
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  overflow-x: hidden;
 
   @media only screen and (max-width: $bp-huge) {
         font-size: 60%;
