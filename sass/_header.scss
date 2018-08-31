@@ -5,7 +5,7 @@
         to right bottom, 
         rgba($color-primary, 0),
         rgba($color-secondary, 0)),
-        url(/img/purple_sunset.jpeg);
+        url(/img/DesktopMountains.jpeg);
     background-size: cover;
     background-position: bottom;
     // margin-bottom: 4rem;
@@ -18,6 +18,14 @@
         -webkit-clip-path: polygon( 0 0, 100% 0, 100% 75vh, 0 100%);
         clip-path: polygon( 0 0, 100% 0, 100% 75vh, 0 100%);
     }
+
+    @media (max-width: $bp-huge) {
+        background-image: url(/img/laptopMountain.jpeg);
+    }
+
+    @media (max-width: $bp-small) {
+        background-image: url(/img/mobileMountains.jpeg);
+    }  
 
     .heading-1 {
         grid-row: 2 / 3;
