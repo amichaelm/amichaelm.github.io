@@ -114,9 +114,9 @@
                 text-shadow: none;
                 background-image: linear-gradient(to right, rgb(99, 70, 247), rgb(172, 124, 248));
 
-                @media screen and (max-width: $bp-large) {
-                    background-image: none;
-                }
+//                 @media screen and (max-width: $bp-large) {
+//                     background-image: none;
+//                 }
             }
         }
     }
