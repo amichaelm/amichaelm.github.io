@@ -131,7 +131,7 @@ body {
       font-weight: 10; }
     @media screen and (max-width: 37.5em) {
       .header .heading-1 {
-        grid-column: 1 / 9;
+        grid-column: 1 / 8;
         font-size: 5rem; } }
     @media screen and (max-width: 25em) {
       .header .heading-1 {
@@ -155,7 +155,7 @@ body {
     animation: moveInRight 1.5s; }
     @media screen and (max-width: 37.5em) {
       .header .heading-2 {
-        grid-column: 1 / 8; } }
+        grid-column: 1 / 7; } }
     @media screen and (max-width: 25em) {
       .header .heading-2 {
         grid-column: 1 / 7;
