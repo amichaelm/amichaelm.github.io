@@ -5,7 +5,7 @@
         to right bottom, 
         rgba($color-primary, 0),
         rgba($color-secondary, 0)),
-        url(img/laptopMountain.jpeg);
+        url(../img/DesktopMountains.jpeg);
     background-size: cover;
     background-position: bottom;
     // margin-bottom: 4rem;
@@ -114,9 +114,9 @@
                 text-shadow: none;
                 background-image: linear-gradient(to right, rgb(99, 70, 247), rgb(172, 124, 248));
 
-//                 @media screen and (max-width: $bp-large) {
-//                     background-image: none;
-//                 }
+                @media screen and (max-width: $bp-large) {
+                    background-image: none;
+                }
             }
         }
     }
