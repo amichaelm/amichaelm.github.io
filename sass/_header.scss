@@ -44,10 +44,6 @@
         -ms-animation: moveInLeft 1.5s; /* Internet Explorer */
         -o-animation: moveInLeft 1.5s; /* Opera < 12.1 */
         animation: moveInLeft 1.5s;
-        animation-delay: 1s;
-        -moz-animation-delay: 1s;
-        -ms-animation-delay: 1s;
-        -o-animation-delay: 1s;
 
         .myBase {
             font-weight: 10;
@@ -77,10 +73,7 @@
         -ms-animation: moveInRight 1.5s; /* Internet Explorer */
         -o-animation: moveInRight 1.5s; /* Opera < 12.1 */
         animation: moveInRight 1.5s;
-        animation-delay: 1s;
-        -moz-animation-delay: 1s;
-        -ms-animation-delay: 1s;
-        -o-animation-delay: 1s;
+        
 
         @media screen and (max-width: $bp-small) {
             grid-column: 1 / 8;
