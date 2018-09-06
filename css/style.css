@@ -118,15 +118,15 @@ body {
     margin: 0 4vw 0 8vw;
     color: #fff;
     align-self: center;
-    -webkit-animation: moveInLeft 1s;
+    -webkit-animation: moveInLeft 1.8s;
     /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: moveInLeft 1s;
+    -moz-animation: moveInLeft 1.8s;
     /* Firefox < 16 */
-    -ms-animation: moveInLeft 1s;
+    -ms-animation: moveInLeft 1.8s;
     /* Internet Explorer */
-    -o-animation: moveInLeft 1s;
+    -o-animation: moveInLeft 1.8s;
     /* Opera < 12.1 */
-    animation: moveInLeft 1s; }
+    animation: moveInLeft 1.8s; }
     .header .heading-1 .myBase {
       font-weight: 10; }
     @media screen and (max-width: 37.5em) {
@@ -144,15 +144,15 @@ body {
     margin: 0 4vw 0 8vw;
     margin-top: 4vh;
     align-self: start;
-    -webkit-animation: moveInRight 1s;
+    -webkit-animation: moveInRight 1.5s;
     /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: moveInRight 1s;
+    -moz-animation: moveInRight 1.5s;
     /* Firefox < 16 */
-    -ms-animation: moveInRight 1s;
+    -ms-animation: moveInRight 1.5s;
     /* Internet Explorer */
-    -o-animation: moveInRight 1s;
+    -o-animation: moveInRight 1.5s;
     /* Opera < 12.1 */
-    animation: moveInRight 1s; }
+    animation: moveInRight 1.5s; }
     @media screen and (max-width: 37.5em) {
       .header .heading-2 {
         grid-column: 1 / 8; } }
@@ -176,15 +176,15 @@ body {
       transition: all .3s;
       border-radius: 50rem;
       cursor: pointer;
-      -webkit-animation: moveInBottom 1s;
+      -webkit-animation: moveInBottom 1.5s;
       /* Safari, Chrome and Opera > 12.1 */
-      -moz-animation: moveInBottom 1s;
+      -moz-animation: moveInBottom 1.5s;
       /* Firefox < 16 */
-      -ms-animation: moveInBottom 1s;
+      -ms-animation: moveInBottom 1.5s;
       /* Internet Explorer */
-      -o-animation: moveInBottom 1s;
+      -o-animation: moveInBottom 1.5s;
       /* Opera < 12.1 */
-      animation: moveInBottom 1s; }
+      animation: moveInBottom 1.5s; }
       @media screen and (max-width: 37.5em) {
         .header .skills .item {
           visibility: hidden; } }
@@ -230,15 +230,15 @@ body {
     font-weight: 800;
     font-size: 6rem;
     color: #836cf0;
-    -webkit-animation: moveInLeft 1s;
+    -webkit-animation: moveInLeft 1.8s;
     /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: moveInLeft 1s;
+    -moz-animation: moveInLeft 1.8s;
     /* Firefox < 16 */
-    -ms-animation: moveInLeft 1s;
+    -ms-animation: moveInLeft 1.8s;
     /* Internet Explorer */
-    -o-animation: moveInLeft 1s;
+    -o-animation: moveInLeft 1.8s;
     /* Opera < 12.1 */
-    animation: moveInLeft 1s; }
+    animation: moveInLeft 1.8s; }
   .features__what {
     display: flex;
     justify-content: center;
