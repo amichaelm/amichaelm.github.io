@@ -5,7 +5,7 @@
         to right bottom, 
         rgba($color-primary, 0),
         rgba($color-secondary, 0)),
-        url(../img/laptopMountain.jpeg);
+        url(../img/DesktopMountains.jpeg);
     background-size: cover;
     background-position: bottom;
     // margin-bottom: 4rem;
@@ -19,14 +19,18 @@
         clip-path: polygon( 0 0, 100% 0, 100% 75vh, 0 100%);
     }
 
-    // @media (max-width: $bp-huge) {
-    //     background-image: url(/img/laptopMountain.jpeg);
+    @media (max-width: $bp-huge) {
+        background-image: url(../img/DesktopMountains.jpeg);
         
-    // }
+    }
 
-    // @media (max-width: $bp-small) {
-    //     background-image: url(/img/mobileMountains.jpeg);
-    // }  
+    @media (max-width: $bp-medium) {
+        background-image: url(../img/laptopMountain.jpeg);
+    }
+
+    @media (max-width: $bp-small) {
+        background-image: url(../img/tabletMountains.jpeg);
+    }  
 
     .heading-1 {
         grid-row: 2 / 3;
