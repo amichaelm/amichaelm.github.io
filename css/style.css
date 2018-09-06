@@ -7,7 +7,8 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  overflow-x: hidden; }
   @media only screen and (max-width: 93.75em) {
     html {
       font-size: 60%; } }
@@ -92,7 +93,7 @@ body {
 .header {
   grid-row: 1 / 2;
   grid-column: full-start / full-end;
-  background-image: linear-gradient(to right bottom, rgba(172, 124, 248, 0), rgba(131, 108, 240, 0)), url(/img/purple_sunset.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(172, 124, 248, 0), rgba(131, 108, 240, 0)), url(../img/laptopMountain.jpeg);
   background-size: cover;
   background-position: bottom;
   display: grid;
