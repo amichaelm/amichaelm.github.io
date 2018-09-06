@@ -127,10 +127,10 @@ body {
     -o-animation: moveInLeft 1.8s;
     /* Opera < 12.1 */
     animation: moveInLeft 1.8s;
-    animation-delay: 2s;
-    -moz-animation-delay: 2s;
-    -ms-animation-delay: 2s;
-    -o-animation-delay: 2s; }
+    animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -ms-animation-delay: 3s;
+    -o-animation-delay: 3s; }
     .header .heading-1 .myBase {
       font-weight: 10; }
     @media screen and (max-width: 37.5em) {
@@ -157,10 +157,10 @@ body {
     -o-animation: moveInRight 1.5s;
     /* Opera < 12.1 */
     animation: moveInRight 1.5s;
-    animation-delay: 2s;
-    -moz-animation-delay: 2s;
-    -ms-animation-delay: 2s;
-    -o-animation-delay: 2s; }
+    animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -ms-animation-delay: 3s;
+    -o-animation-delay: 3s; }
     @media screen and (max-width: 37.5em) {
       .header .heading-2 {
         grid-column: 1 / 8; } }
