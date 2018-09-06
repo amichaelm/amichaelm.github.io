@@ -93,7 +93,7 @@ body {
 .header {
   grid-row: 1 / 2;
   grid-column: full-start / full-end;
-  background-image: linear-gradient(to right bottom, rgba(172, 124, 248, 0), rgba(131, 108, 240, 0)), url(../img/DesktopMountains.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(172, 124, 248, 0), rgba(131, 108, 240, 0)), url(../img/laptopMountain.jpeg);
   background-size: cover;
   background-position: bottom;
   display: grid;
@@ -118,19 +118,19 @@ body {
     margin: 0 4vw 0 8vw;
     color: #fff;
     align-self: center;
-    -webkit-animation: moveInLeft 1.8s;
+    -webkit-animation: moveInLeft 1.5s;
     /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: moveInLeft 1.8s;
+    -moz-animation: moveInLeft 1.5s;
     /* Firefox < 16 */
-    -ms-animation: moveInLeft 1.8s;
+    -ms-animation: moveInLeft 1.5s;
     /* Internet Explorer */
-    -o-animation: moveInLeft 1.8s;
+    -o-animation: moveInLeft 1.5s;
     /* Opera < 12.1 */
-    animation: moveInLeft 1.8s;
-    animation-delay: 3s;
-    -moz-animation-delay: 3s;
-    -ms-animation-delay: 3s;
-    -o-animation-delay: 3s; }
+    animation: moveInLeft 1.5s;
+    animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+    -o-animation-delay: 1s; }
     .header .heading-1 .myBase {
       font-weight: 10; }
     @media screen and (max-width: 37.5em) {
@@ -157,10 +157,10 @@ body {
     -o-animation: moveInRight 1.5s;
     /* Opera < 12.1 */
     animation: moveInRight 1.5s;
-    animation-delay: 3s;
-    -moz-animation-delay: 3s;
-    -ms-animation-delay: 3s;
-    -o-animation-delay: 3s; }
+    animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+    -o-animation-delay: 1s; }
     @media screen and (max-width: 37.5em) {
       .header .heading-2 {
         grid-column: 1 / 8; } }

@@ -5,7 +5,7 @@
         to right bottom, 
         rgba($color-primary, 0),
         rgba($color-secondary, 0)),
-        url(../img/DesktopMountains.jpeg);
+        url(../img/laptopMountain.jpeg);
     background-size: cover;
     background-position: bottom;
     // margin-bottom: 4rem;
@@ -39,15 +39,15 @@
         color: #fff;
         align-self: center;
 
-        -webkit-animation: moveInLeft 1.8s; /* Safari, Chrome and Opera > 12.1 */
-        -moz-animation: moveInLeft 1.8s; /* Firefox < 16 */
-        -ms-animation: moveInLeft 1.8s; /* Internet Explorer */
-        -o-animation: moveInLeft 1.8s; /* Opera < 12.1 */
-        animation: moveInLeft 1.8s;
-        animation-delay: 3s;
-        -moz-animation-delay: 3s;
-        -ms-animation-delay: 3s;
-        -o-animation-delay: 3s;
+        -webkit-animation: moveInLeft 1.5s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: moveInLeft 1.5s; /* Firefox < 16 */
+        -ms-animation: moveInLeft 1.5s; /* Internet Explorer */
+        -o-animation: moveInLeft 1.5s; /* Opera < 12.1 */
+        animation: moveInLeft 1.5s;
+        animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -ms-animation-delay: 1s;
+        -o-animation-delay: 1s;
 
         .myBase {
             font-weight: 10;
@@ -77,10 +77,10 @@
         -ms-animation: moveInRight 1.5s; /* Internet Explorer */
         -o-animation: moveInRight 1.5s; /* Opera < 12.1 */
         animation: moveInRight 1.5s;
-        animation-delay: 3s;
-        -moz-animation-delay: 3s;
-        -ms-animation-delay: 3s;
-        -o-animation-delay: 3s;
+        animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -ms-animation-delay: 1s;
+        -o-animation-delay: 1s;
 
         @media screen and (max-width: $bp-small) {
             grid-column: 1 / 8;
